@@ -1,0 +1,80 @@
+.app {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding: 20px;
+  background: #f9fafc;
+}
+
+.title {
+  font-size: 2rem;
+  color: #4a3aff;
+  margin-bottom: 20px;
+}
+
+.form-card {
+  background: #ffffff;
+  padding: 20px;
+  margin: 0 auto 30px auto;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.form-card input,
+.form-card select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 200px;
+}
+
+.form-card button {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form-card button:hover {
+  background: #218838;
+}
+
+.subtitle {
+  margin: 20px 0;
+  color: #333;
+}
+
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 15px;
+}
+
+.review-card {
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+  text-align: left;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.review-card h3 {
+  margin-top: 0;
+  color: #4a3aff;
+}
+
+.review-card .desc {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.review-card .date {
+  font-size: 0.8rem;
+  color: gray;
+}
