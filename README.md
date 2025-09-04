@@ -101,7 +101,7 @@ MIT
 👉 Steps to add this to your repo:
 
 ```bash
-cd ~/Desktop/pulse-assignment
+cd ~/Desktop/Pulse-assignments
 nano README.md   # paste the content above, save & exit
 git add README.md
 git commit -m "Added project README"
